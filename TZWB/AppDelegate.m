@@ -33,6 +33,7 @@
      [UMSocialData setAppKey:@"507fcab25270157b37000010"];
      [UMSocialSinaHandler openSSOWithRedirectURL:@"https://api.weibo.com/oauth2/default.html"];
     [UMSocialSinaSSOHandler openNewSinaSSOWithRedirectURL:@"https://api.weibo.com/oauth2/default.html"];
+    NSLog(@"你是猪啊啊啊啊啊  啊");
     return YES;
 }
 
