@@ -31,6 +31,7 @@
     // Override point for customization after application launch.
    
      [UMSocialData setAppKey:@"507fcab25270157b37000010"];
+     [UMSocialData setAppKey:@"507fcab25270157b37000010"];
      [UMSocialSinaHandler openSSOWithRedirectURL:@"https://api.weibo.com/oauth2/default.html"];
     [UMSocialSinaSSOHandler openNewSinaSSOWithRedirectURL:@"https://api.weibo.com/oauth2/default.html"];
     return YES;
